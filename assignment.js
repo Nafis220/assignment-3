@@ -70,7 +70,7 @@ var result = brickCalculator(19);
 
 function tinyFriend(nameOfFriends)
 {
-  var temp = nameOfFriends.split(" ");
+  var temp = nameOfFriends.split(",");
   var tiniest = temp[0];
 
   for(var i = 1 ; i < temp.length ; i++)
@@ -82,7 +82,7 @@ function tinyFriend(nameOfFriends)
   }
   return tiniest;
 }
-var name = tinyFriend('Mohammad Nafis Fuad Chowdhury Prapto')
+var name = tinyFriend('Mohammad , Nafis , Anas , Fuad, Chowdhury, Prapto')
 var  outPut = "Tiniest name is"+" ";
 var outPut2 = outPut + name;
 console.log(outPut2)
